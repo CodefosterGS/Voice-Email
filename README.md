@@ -8,17 +8,19 @@ Complete voice based interaction for performing all functionalities of email ser
 - All the commands triggered by voice recognition.
 ## Detailed description
 Steps to how the application workflow will be:
-step: Voice command asking for new user or to login
-step: taking the response from the user as new user , ask for registration.
-step: if chosen for login, ask for login credentials ie.email address and password.
-step: after logging in the function menu will ask for the next command to perform operation.
-step: user can interfere anytime by double click on screen.
+-step: Voice command asking for new user or to login
+-step: taking the response from the user as new user , ask for registration.
+-step: if chosen for login, ask for login credentials ie.email address and password.
+-step: after logging in the function menu will ask for the next command to perform operation.
+-step: user can interfere anytime by double click on screen.
 
 Inputs for registration:
 - Name
 - Email address
 - Password
 ## Technology
+- Flutter
+- Dart
 - Java
 - SQLite for database
 - API's of Gmail, Google speech recognition
